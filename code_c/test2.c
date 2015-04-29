@@ -2,7 +2,7 @@
 
 int main ()
 {
-  printf ("hello,testing.\n");
-
+  printf ("hello,i am testing .\n");
+   
   return 0;
 }
