@@ -1,0 +1,34 @@
+﻿生成启动时间为 2015/7/16 11:51:18。
+     1>项目“D:\Win32_Code\win32_2\mfc_3\mfc_3.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\mfc_3.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         d:\Program Files\VS2010_Install\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\mfc_3.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mfc_3Dlg.cpp
+         mfc_3Dlg.cpp
+     1>d:\win32_code\win32_2\mfc_3\mfc_3dlg.cpp(243): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\vs2010_install\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Program Files\VS2010_Install\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Win32_Code\win32_2\Debug\mfc_3.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\mfc_3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Win32_Code\win32_2\Debug\mfc_3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Win32_Code\win32_2\Debug\mfc_3.lib" /MACHINE:X86 Debug\mfc_3.res
+         Debug\mfc_3.exe.embed.manifest.res
+         Debug\mfc_3.obj
+         Debug\mfc_3Dlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\mfc_3.exe.embed.manifest" /manifest Debug\mfc_3.exe.intermediate.manifest "d:\Program Files\VS2010_Install\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         mfc_3.vcxproj -> D:\Win32_Code\win32_2\Debug\mfc_3.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\mfc_3.unsuccessfulbuild”。
+         正在对“Debug\mfc_3.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Win32_Code\win32_2\mfc_3\mfc_3.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.41
